@@ -1,0 +1,38 @@
+.weather-box {
+  background: rgb(255, 184, 184);
+  background: linear-gradient(
+    180deg,
+    rgb(255, 247, 198) 0%,
+    rgb(128, 232, 255) 46%,
+    rgba(86, 145, 255, 0.956) 95%
+  );
+  border-radius: 25px;
+  padding: 1rem;
+}
+.location {
+  color: rgba(128, 232, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.349);
+  border-radius: 25px 25px;
+  padding: 1rem;
+  font-size: 2rem;
+}
+.temperature {
+  background-color: rgba(255, 255, 255, 0.349);
+  padding: 1rem;
+  border-radius: 25px;
+  color: white;
+  font-size: 3rem;
+}
+.other__list {
+  background-color: rgba(255, 255, 255, 0.349);
+  border-radius: 25px;
+  padding: 1rem;
+}
+.list-item {
+  list-style: none;
+  color: white;
+  font-size: 1rem;
+}
+.list-item:first-child {
+  font-size: 1.5rem;
+}
